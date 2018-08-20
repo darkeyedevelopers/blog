@@ -36,6 +36,9 @@
       {% assign date_format = site.sleek.date_format | default: "%b %-d, %Y" %}
       <span class="post-card__meta">
         <time>{{ post.date | date: date_format }}</time>
+        {% if post.author %}
+          &nbsp;&middot;&nbsp;&nbsp;by {{ post.author }}
+        {% endif %}
       </span>
     </div>
     {% if post.summary %}

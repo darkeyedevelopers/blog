@@ -6,7 +6,7 @@ featured-img: emile-perron-190221
 categories: Guides
 author: sk111
 series: Markdown Series
-series-index: 1
+series-index: 2
 ---
 
 From [adam-p/markdown-here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
