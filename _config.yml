@@ -16,6 +16,7 @@ social:
 # THEME SETTINGS
 navigation: # Navigation links
   - {name: 'Home', link: '/'}
+  - {name: 'Tags', link: '/categories'}
 
 tagline: >
   Technology | Programming | Development
@@ -53,7 +54,7 @@ exclude:
   - sleek.jpg
 
 include: ['_pages']
-permalink: /:categories/:title/
+permalink: /:title/
 
 compress_html:
   clippings: all
@@ -61,3 +62,4 @@ compress_html:
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jemoji

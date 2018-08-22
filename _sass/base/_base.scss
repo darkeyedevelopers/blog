@@ -38,3 +38,9 @@ img::selection {
 figure {
   margin: 0;
 }
+
+img.emoji {
+    height: 1rem;
+    width: 1rem;
+    margin-bottom: 0.25rem;
+}
