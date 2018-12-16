@@ -41,4 +41,13 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.min.js"></script>
+  <script>
+      $(window).ready(function(){
+          $('img').each(function(){
+              if(!$(this).hasClass("emoji") && $(this).parent().prop("tagName") == 'P') {
+                  $(this).parent().css("text-align", "center");
+              }
+          });
+      });
+  </script>
 </head>
