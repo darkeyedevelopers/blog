@@ -2,7 +2,7 @@
 layout: post
 title: How we sniffed passwords of our teachers for increasing attendance
 featured-img: how-we-sniffed-passwords-teachers-increasing-attendance
-author: RathiRohit
+author: Anonymous
 categories: [Password Sniffing, Hacking, Moodle]
 ---
 Believe it or not, but most of the engineering students of our institute hate the 75% attendance rule, especially if they are from CSE branch :laughing:. And we were always among the top in the list of students who don't like attending boring lectures just for the sake of attendance. On one such boring day of my 6th semester, while browsing the [WonderHowTo Null-Byte][null-byte-blog] Blog (one of my favorites :grin:), we came across **ARP poisoning attack** and a tool called **Ettercap**. And soon we understood that this was going to be the golden key for bunking the lectures in college :star2:.
