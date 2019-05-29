@@ -14,9 +14,9 @@ With 512MB RAM, 10K rows of Postgre database, Custom domain support and 1000 dyn
 
 2. Add a file named **Procfile** in project root with following content:
 ```
-    web: gunicorn bootcamp.wsgi --log-file -
+    web: gunicorn <django_project_name>.wsgi --log-file -
 ```
-
+Put your django project name in place of `<django_project_name>`
 
 3. Add a file named **runtime.txt** in project root with the python version your app uses. Ex:
 ```
