@@ -51,14 +51,14 @@ If this doesn't work, one can use ["macchanger"][macchanger-tutorial] app for do
 - Start Ettercap, and go to **"Sniff"** => **"Unified sniffing"** and select correct network interface.
 - Go to **"Hosts"** => **"Scan for hosts"**, this will scan the current hosts in the LAN.
 - Go to **"Hosts"** => **"Host list"**, this will show the list of detected hosts.
-- Select the IP address of the **Router** (noted in the first step) and add it to **"Target 2"**.
+- Select the IP address of the **Router** (noted in the second step) and add it to **"Target 2"**.
 - Select all **other hosts** except Router and add these to **"Target 1"**.
 - Go to **"Mitm"** => **"ARP Poisoning"** => **"Sniff remote connections"** => **"Ok"**.
 - Go to **"Start"** => **"Start sniffing"**.
 
 ![Adding hosts to targets][ettercap-targets]
 
-If you have done everything correctly, you will start receiving the network activity in the log. As soon as someone logs in on an HTTP website, you can see her/his *Username* & *Password* in the log.
+If you have done everything correctly, you will start receiving the network activity in the log. As soon as someone logs in on any HTTP website, you can see her/his *Username* & *Password* in the log.
 
 ![Ettercap log][ettercap-log]
 
