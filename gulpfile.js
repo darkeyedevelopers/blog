@@ -172,7 +172,7 @@ gulp.task('img', function() {
         width: 230,
         rename: {suffix: '_placehold'},
       }, {
-        // thubmnail
+        // thumbnail
         width: 535,
         rename: { suffix: '_thumb' },
       }, {
