@@ -3,7 +3,7 @@ layout: post
 title: My firsthand experience with StencilJS and WebComponents
 featured-img: firsthand-experience-stenciljs-webcomponents
 author: RathiRohit
-categories: [StencilJS, WebComponents, Web Development]
+categories: [StencilJS, Web-Components]
 ---
 For the past few months I got a chance to work extensively on StencilJS (and thus WebComponents)
 with existing Angular app being the host application. This post is overall summary of my experience
